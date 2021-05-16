@@ -14,30 +14,42 @@
 ### 配置环境和依赖
 在已经安装 Anaconda 的情况下，通过
 
-```conda create -n wiki python=3.7``` 
+```
+conda create -n wiki python=3.7
+``` 
 
 创建全新环境
 
-```conda activate wiki```
+```
+conda activate wiki
+```
 
 进入环境
 
-```conda install flask flask-restful pyspark```
+```
+conda install flask flask-restful pyspark
+```
 
 安装依赖
 
 ### 测试是否配置成功
 进入项目根目录，在终端中执行
 
-```python app.py```
+```
+python app.py
+```
 
 打开浏览器，在地址栏中输入
 
-```localhost:5000```
+```
+localhost:5000
+```
 
 若看到以下显示，说明已经配置成功了。
 
-```{hello: world}```
+```
+{hello: world}
+```
 
 
 
